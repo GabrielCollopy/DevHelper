@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#22ffb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal{
+    width: 95%;
+    height: 100vh;
+    background-color: black;
+}
+
+nav{
+    font-family: 'Russo One', sans-serif;                                              
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5% 15px 5%;
+    color: whitesmoke;
+    /*border: 2px solid #22ffb6;
+    border-radius: 20px;*/
+}
+
+
+.menu-left{
+    width: fit-content;
+    color: #22ffb6;
+    font-size: 40%;
+    padding-left: 20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-center{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.container-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5% 0 5%;
+}
+
+.information{
+    font-family: 'Russo One', sans-serif;                                     
+    width: 60%;
+    height: 50vh;
+    margin-top: 10%;
+    color: whitesmoke;
+}
+
+.cadastro{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.botaoLogar{
+    padding-bottom: 50%;
+    padding-top: 55%;
+    font-family: 'Russo One', sans-serif;
+}
+
+.botaoCadastrar{
+    font-family: 'Russo One', sans-serif; 
+}
+
+
+.button{
+    background-color: #22ffb6;
+    border-radius: 1px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.mensagem{
+    height:10%;
+}
